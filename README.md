@@ -28,7 +28,7 @@ Given a dataset of 34,000 organizations' historical requests for funding from Al
     * Given the pre-processing steps above, this model was able to achieve 79.51% accuracy and 0.5510 loss ratio with 400 nodes across 4 hidden layers through 40 epochs. The strategy here was to find the maximum accuracy in the minimum number of epochs. RELU was used to initialize the first node and all the hidden layers. Specifically, RELU was heavily used due to computational efficiency of those node (the passing of information forwards and backwards is done with a simple "IF" statement) making these layers able to process more data efficiently. SIGMOID was used on the output layer, due to it performing better when classifying things as a 1 or a 0.
     * Empirically-speaking, deeper networks with more layers tend to perform better in a wider variety of tasks, and although this task was simple compared to image recognition, the same approach was used to try and maximize efficiency. **It is important to note that efficiency was sacrificed for accuracy in this particular model.**
     * This model performed best when trained across 40 epochs.
-    * Random Forrest Classifier Met the standard with n_estimators of 64. It achieved 77.8% accuracy.
+    * Random Forest Classifier Met the standard with n_estimators of 64. It achieved 77.8% accuracy.
 
 - - -
 
